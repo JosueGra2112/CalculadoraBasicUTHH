@@ -1,0 +1,143 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "sumaIntent",
+          "samples": [
+            "cual es el resultado de {uno} mas {dos}",
+            "cuanto es {uno} mas {dos}",
+            "suma {uno} mas {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "restaIntent",
+          "samples": [
+            "cuanto es {dos} menos {uno}",
+            "resta {dos} menos {uno}",
+            "cual es el resultado de {dos} menos {uno}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "multiIntent",
+          "samples": [
+            "dame el resultado de {uno} por {dos}",
+            "puedes multiplicar {uno} por {dos}",
+            "multiplica {uno} por {dos} "
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "divIntent",
+          "samples": [
+            "puedes dividir {uno} entre {dos}",
+            "dame el resultado de {uno} entre {dos}",
+            "divide {uno} entre {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "base",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "exponente",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "potenciaIntent",
+          "samples": [
+            "potencia de {base} a {exponente}",
+            "cuál es la potencia de {base} a {exponente}",
+            "calcula {base} elevado a {exponente}",
+            "eleva {base} a la potencia de {exponente}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numero",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "raizCuadradaIntent",
+          "samples": [
+            "raíz de {numero}",
+            "cuál es la raíz cuadrada de {numero}",
+            "calcula la raíz cuadrada de {numero}",
+            "raíz cuadrada de {numero}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora basica ut"
+    }
+  }
+}
